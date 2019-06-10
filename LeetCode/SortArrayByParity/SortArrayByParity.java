@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution {
+public class SortArrayByParity {
 
 	public static void main(String[] args) {
 		int[] number = new int[] {3, 1, 2, 4};
