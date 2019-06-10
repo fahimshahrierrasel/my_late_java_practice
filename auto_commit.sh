@@ -26,7 +26,7 @@ echo -e "\n" >> README.md
 cat includes/readme_footer.md >> README.md
 echo -e "\n\n" >> README.md
 # writing the timestamps to README
-echo "\n\nThis file generated on \``date`\`." >> README.md
+echo "This file generated on \``date`\`." >> README.md
 
 # removing the chapter.md
 rm chapter.md
