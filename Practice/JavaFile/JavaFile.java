@@ -1,12 +1,7 @@
 import java.io.*;
 import java.nio.file.*;
 
-public class Main {
-
-	public static void main(String[] args) {
-//		fileWrite();
-		fileRead();
-	}
+public class JavaFile {
 
 	private static void fileWrite() {
 		Path file = Paths.get("Grades.txt");

@@ -1,7 +1,7 @@
 /*
  * Problem from https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e
  */
-public class Main {
+public class SearchIn2DArray {
 	
 	public static <T> void println(T data) {
 		System.out.println(data);
@@ -11,7 +11,7 @@ public class Main {
 		System.out.print(data);
 	}
 
-	public static void main(String[] args) {
+	public static void FindIn2D(String[] args) {
 		int[][] array2d = { 
 				{ 1, 4, 7, 11, 15 }, 
 				{ 2, 5, 8, 12, 19 }, 

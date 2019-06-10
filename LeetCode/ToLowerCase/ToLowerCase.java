@@ -1,13 +1,5 @@
-
-public class Solution {
-
-	public static void main(String[] args) {
-		System.out.println(toLowerCase("Fahim"));
-		System.out.println(toLowerCase("here"));
-		System.out.println(toLowerCase("LOVELY"));
-		System.out.println(toLowerCase("LOVELY123"));
-	}
-	
+// https://leetcode.com/problems/to-lower-case/
+public class ToLowerCase {
 	public static String toLowerCase(String str) {
 		char[] array = str.toCharArray();
 		int constant = 'a' - 'A';
@@ -19,5 +11,4 @@ public class Solution {
 		
         return String.copyValueOf(array);
     }
-
 }

@@ -1,17 +1,5 @@
-
-public class Solution {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int num = numJewelsInStones("z", "ZZ");
-		System.out.println(num);
-		num = numJewelsInStones("aA", "aAAbbbbbb");
-		System.out.println(num);
-		num = numJewelsInStones("AZ", "aaaaaaaAAAZZzzzz");
-		System.out.println(num);
-
-	}
-	
+// https://leetcode.com/problems/jewels-and-stones/
+public class JewelsAndStones {
 	public static int numJewelsInStones(String J, String S) {
 		int[] hashTable = new int[('z' - 'A') + 1];
 		int total = 0;
@@ -31,5 +19,4 @@ public class Solution {
 	public static int hashIndex(char letter) {
 		return (letter - 'A');
 	}
-
 }
